@@ -1,0 +1,29 @@
+body{
+    overflow-x: hidden;
+}
+
+
+table th{
+border:2px solid black;
+padding: 4px;
+}
+table td{
+    border:2px solid black;
+padding: 4px;
+}
+@media (max-width:760px) {
+    .table{
+      margin-inline: 50px;
+        
+     } 
+}
+
+.form-group input{
+   width: 30%;
+}
+@media (max-width:760px) {
+    .form-group input{
+        width: 40%;
+        
+     } 
+}
